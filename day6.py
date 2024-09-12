@@ -47,3 +47,15 @@ f = None
 
 print(a, b, c, d, e, f,sep="\t")
 print("type of variable ",type(a),type(b),type(c),type(d),type(e),type(f),sep="\n")
+
+"""
+OUTPUT:
+    1       2.23    (1+2.23j)       Hello   True    None
+    type of variable 
+    <class 'int'>
+    <class 'float'>
+    <class 'complex'>
+    <class 'str'>
+    <class 'bool'>
+    <class 'NoneType'>
+"""

@@ -29,3 +29,10 @@
 print("Hey",6,7,23,342,"this is print statement",sep=" :",end=" ")
 
 print("hey this is me \n \"preshit\" \t \'preshit kamble\'")
+
+
+"""
+OUTPUT:
+    Hey :6 :7 :23 :342 :this is print statement hey this is me 
+    "preshit"       'preshit kamble'
+"""
