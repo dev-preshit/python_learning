@@ -16,7 +16,7 @@ variable is like a box on memory where we can store data
             a=1
         float
             b=2.23
-        #complex
+        complex
             c = complex(1,3)
         char/string
             d="Hello"
