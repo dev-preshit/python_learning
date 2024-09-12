@@ -1,0 +1,2 @@
+-- i am learning python from scratch
+-- this is the documentation of it
