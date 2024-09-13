@@ -19,4 +19,3 @@ elif n == '//':
     print("ANS: ",a//b)
 else:
     print("WRONG CODE")
-
