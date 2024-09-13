@@ -1,3 +1,4 @@
+#SIMPLE CALCULATOR
 # WAP in python to create a calculator
 a=float(input("Enter first value"))
 b=float(input("Enter second value"))
