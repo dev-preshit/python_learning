@@ -1,5 +1,8 @@
+#EXECRISE 1
 #SIMPLE CALCULATOR
 # WAP in python to create a calculator
+
+
 a=float(input("Enter first value"))
 b=float(input("Enter second value"))
 n=str(input("Enter an operator value"))
