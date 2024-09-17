@@ -16,3 +16,5 @@ elif hour >= 12 and hour < 18 :
 
 elif (hour >= 18 and hour < 24) or (hour >=0 and hour < 6) :
     print("GOOD EVENING")
+else :
+    print("Someting went wrong")
