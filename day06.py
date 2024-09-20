@@ -3,10 +3,10 @@
 
 variable is like a box on memory where we can store data
     like c variable can be of any type
-        i)int
-        ii)float
-        iii)char/string
-        iv)boolean
+        • int
+        • float
+        • char/string
+        • boolean
 
     but unlike 'c' you don't have to / programmer don't have to determine it at the time of declaration
     programmer can directly store data on it & it will change its type according to data.

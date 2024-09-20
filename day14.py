@@ -5,10 +5,10 @@
         than programmer will use if else statement
 
         base on cases this if else statement are fearther divided into 4 parts
-        1) simple if
-        2) if else
-        3) if elif else
-        4) nested if else
+        •  simple if
+        •  if else
+        •  if elif else
+        •  nested if else
 
         #SIMPLE IF
             The simple if statement in python is decision-making statement use to 

@@ -3,13 +3,13 @@
         in any programming launguage the special symbol use for certain purpose are known  as operators...
 
             1)Arithamatic operator
-                i)Addition          (+)
-                ii)Substraction     (-)
-                iii)Multiplication  (*)
-                iv)Division         (/)
-                v)Modulus           (%)
-                vi)Exponatial       (**)
-                vii)Floor Division  (//)
+                • Addition          (+)
+                • Substraction      (-)
+                • Multiplication    (*)
+                • Division          (/)
+                • Modulus           (%)
+                • Exponatial        (**)
+                • Floor Division    (//)
 
             this above are different types of arithamatic operator use to do arithamatic operation
 """

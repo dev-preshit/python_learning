@@ -6,8 +6,8 @@
         wherever and whenever we want...
 
         there are two types of functions:
-            1)Build-in function
-            2)User-define function
+            • Build-in function
+            • User-define function
         
         1)Build-in funtion
             Build-in function are already define function is python we dont have 
