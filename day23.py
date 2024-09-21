@@ -49,6 +49,10 @@
             k = [100, 200, 300]
             l.extend(k)
             print(l)
+            But if we want that list shouldn't be change that we 
+            can simply concatinate two list to a new created one
+            eg. 
+                list = l + k
         
 
 """
@@ -96,5 +100,9 @@ print(l)    #[85, 234, 34, 56, 2, 65, 78, 12, 98, 4]
 
 #extend()
 k = [100, 200, 300]
+
+list = l + k
+
 l.extend(k)
 print(l)    #[85, 234, 34, 56, 2, 65, 78, 12, 98, 4, 100, 200, 300]
+print(list) #[85, 234, 34, 56, 2, 65, 78, 12, 98, 4, 100, 200, 300]
