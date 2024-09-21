@@ -3,12 +3,12 @@
         Python has various method to manipunate string 
         Using this methods you can find length, change string into lower and upper case and much more
 
-        #Function length of string
+        • Function length of string
 
             stringLen = str.len()
         this will give length of string including all symbols and spaces...
 
-        #Function to convert to lowercase and uppercase
+        • Function to convert to lowercase and uppercase
 
             upperString = str.upper()
         this will convert all string characters into uppercase...
@@ -16,33 +16,33 @@
             lowerString = str.lower()
         this will convert all string characters into lowercase...
 
-        #Function to remove any tralling characters
+        • Function to remove any tralling characters
 
             str = "!!!DEV!!!!!"
             stripString = str.rstrip("!")
         this will remove all "!" from string 
         NOTE: it will only remove ending "!" not starting...
 
-        #Function to replace String element
+        • Function to replace String element
 
             str = "silver spoon"
             newString = str.replace("sp", "M")
         this will replace all "sp" in in string with "M"...
 
-        #Function to seprate and create a list of sting
+        • Function to seprate and create a list of sting
 
             str = "Silver Moon"
             listString = str.split(" ")
         this will split string wherever there is a space and treate it as different element...
         ['Silver', 'Moon']
 
-        #Function to capitalize a string
+        • Function to capitalize a string
 
             str = "hello world"
             capString = str.capitalize()
         this will turn first character into capital and rest will be change into lowercase...
 
-        #Function to align sting to center as pre the parameter pass my user
+        • Function to align sting to center as pre the parameter pass my user
 
             str = "This is an example"
             centralString = str.center(50)
@@ -52,13 +52,13 @@
             centralString1 = str.center(50,".")
         or else we can also pass charater we want to print instead of space...
 
-        #Function to count the number of time a character is repeting in string
+        • Function to count the number of time a character is repeting in string
 
             str = "afsaakfjdakjda"
             StringCount = str.count("a")
         this will return how many times the character a is repeted...
         
-        #Function to check whether string ends with preticalar character
+        • Function to check whether string ends with preticalar character
 
             str = "Hello guys!!!"
             Newstring = str.endswith("!!!")
@@ -67,52 +67,52 @@
 
             NewString = str.endswith("uy",3,10)...
 
-        #Function to check whether string start with preticalar character
+        • Function to check whether string start with preticalar character
 
             str = "Hello guys!!!"
             Newstring = str.startswith("guys")
         this will return boolen value (TRUE/FALSE)...
 
         
-        #Function to find any perticular character index in string
+        • Function to find any perticular character index in string
 
             str = "He's a boy , he is not a girl"
             FindString = str.find("a")
         this will return the index of first "a" it will find in string
         if character do not found it will return -1...
 
-        #Function to find index on perticular character in sting
+        • Function to find index on perticular character in sting
 
             str = "He's a boy , he is not a girl"
             FindString = str.find("a")
         this will return the index of first "a" it will find in string
         if character do not found it will return error: Substring not found...
 
-        #Function to find if string is alphanumaric i.e. it consist A-Z,a-z,0-9 or not
+        • Function to find if string is alphanumaric i.e. it consist A-Z,a-z,0-9 or not
 
             str = "HellothisismetheProgrammer123"
             alphaString = str.isalnum()
         this will return True is only A-Z,a-z,0-9 is persent else False (punctuations only)...
 
-        #Function to find if string is coinsisting alphabets only
+        • Function to find if string is coinsisting alphabets only
 
             str = "HellothisismetheProgrammer123"
             alphaString = str.isalpha()
         this will return True is only A-Z,a-z is persent else False(0-9 and punctuations)...
 
-        #Function to find does string contain only lowercase character
+        • Function to find does string contain only lowercase character
 
             str = "hello world"
             lowerString = str.islower()
         this will provide true if all character in string is in lowercase else false...
 
-        #Function to find does string contain only uppercase character
+        • Function to find does string contain only uppercase character
 
             str = "HELLO WORLD"
             upperString = str.isupper()
         this will provide true if all character in string is in uppercase else false...
 
-        #Function to find does whole string is printable or not
+        • Function to find does whole string is printable or not
 
             str = "Hello World"
             printString = str.isprnitable()
@@ -124,19 +124,19 @@
             spaceString = str.isspace()
         this will return true if there is  wide-space in string else false
 
-        #Function to convert a string into title(If first letter ao all word is capitalized)
+        • Function to convert a string into title(If first letter ao all word is capitalized)
 
             str = "hello world"
             titleString = str.title()
         this will provide string converted into title...
 
-        #Function to find that string is title or not (If first letter ao all word is capitalized)
+        • Function to find that string is title or not (If first letter ao all word is capitalized)
 
             str = "Hello World"
             isCapString = str.istitle()
         this will return true if all first letter of word is capital else false
 
-        #Function to swap Upper to Lower case characters and visa verse
+        • Function to swap Upper to Lower case characters and visa verse
 
             str = "hELLO wORLD"
             swapString = str.swapcase()
