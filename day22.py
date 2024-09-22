@@ -86,8 +86,8 @@ else :
 #Sliceing of list
 mix2 = ["one", 1, 543, True, 0, "zero", 65, "mix", "Hunderd"]
 print(mix2[0:len(mix2)])        # ['one', 1, 543, True, 0, 'zero', 65, 'mix', 'Hunderd']
-print(mix2[1:-1])               # ['one', 543, 0, 65, 'Hunderd']
-print(mix2[0 : len(mix2) : 2])  # [1, 543, True, 0, 'zero', 65, 'mix']
+print(mix2[1:-1])               # [1, 543, True, 0, 'zero', 65, 'mix']
+print(mix2[0 : len(mix2) : 2])  # ['one', 543, 0, 65, 'Hunderd']
 
 #List Comprehension
 #eg 1.
