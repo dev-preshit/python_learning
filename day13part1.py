@@ -54,7 +54,7 @@
 """
 
 
-• len()
+# len()
 str = "Hello Github"
 stringLen = len(str)
 print(stringLen)
