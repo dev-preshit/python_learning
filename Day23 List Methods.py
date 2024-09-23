@@ -17,7 +17,7 @@
             l.reverse()
             print(l)
         
-        • Function to find index by value
+        • Function to find index first apperence on value
             l = [85,34,56,2,65,78,12,98,4]
             print(l.index(56))
         
