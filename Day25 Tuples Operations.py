@@ -1,6 +1,6 @@
 """
     #Day 25 is about operations on Tuples
-        We can manipulate tuple as it is not allowed 
+        We can't manipulate tuple as it is not allowed 
         by python but there is a way to change it...
         We can change it by convertion it to list first
         makes changes and reconvert it back to tuple
