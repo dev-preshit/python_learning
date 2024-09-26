@@ -20,3 +20,10 @@ python interpreter store this string in doc attribute'''
 
 value(5)
 print(value.__doc__)
+
+'''
+    Output:
+        5
+        This is Docstring which is not comment and 
+        python interpreter store this string in doc attribute
+'''
