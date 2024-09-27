@@ -6,6 +6,8 @@
         • They store multiple items in a single variable.
         • List items are separated by commas and enclosed within square brackets [].
         • Lists are changeable meaning we can alter them after creation.
+        • Lists can contain duplicate items.
+        
         eg.
             list = [1,2,3,4,5,6]
             color = ["red","blue","green"]

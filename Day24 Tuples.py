@@ -2,10 +2,12 @@
     #day 24 is about tuples in python
         tuple is similar to list use to store data on one variable
         but unlike list we can't change it...
-        • Lists are ordered collection of data items.
+        • Tuples are ordered collection of data items.
         • They store multiple items in a single variable.
-        • List items are separated by commas and enclosed within round brackets ().
-        • Lists are unchangeable meaning we can't alter them after creation.
+        • Tuples items are separated by commas and enclosed within round brackets ().
+        • Tuples are unchangeable meaning we can't alter them after creation.
+        • Tuples do not contain duplicate items.
+        
         eg.
             tup = (1,2,3,4,5,6)
             colortup = ("red","blue","green")
