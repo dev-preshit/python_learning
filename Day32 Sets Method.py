@@ -190,4 +190,4 @@ s1.clear()
 print(s1)   #set()
 
 #del
-del s1
+del s1 #set will be deleted
