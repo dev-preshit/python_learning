@@ -27,6 +27,15 @@
         eg.
             for value in mix:
                 print(value)
+
+        • 'in' keyword
+            we can use 'in' keyword while checking in condition to check whether 
+            element in set is presesnt or not...
+            eg.
+                if 1 in mix:
+                    print("TRUE")
+                else:
+                    print("FALSE")
 """
 
 Sets = {1,2,3,4,3,5,2}
