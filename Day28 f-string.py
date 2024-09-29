@@ -17,7 +17,7 @@
         • f-strings
         When we prefix the string with the letter if', the string becomes the 
         f-string itself. The f-string can be formatted in much same as the
-        str.format0 method. The f-string offers a convenient way to embed
+        str.format() method. The f-string offers a convenient way to embed
         Python expression inside string literals for formatting...
 
         If we want to print a float value uptill a certain number 
