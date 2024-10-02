@@ -84,7 +84,7 @@
         • Function to find index on perticular character in sting
 
             str = "He's a boy , he is not a girl"
-            FindString = str.find("a")
+            FindString = str.index("a")
         this will return the index of first "a" it will find in string
         if character do not found it will return error: Substring not found...
 
