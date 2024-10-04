@@ -26,20 +26,39 @@
         eg. 
             from math import *
         however it is not recommended to do so as it increase confusion...
+
+        as keyword
+        we can create a alias by using \'as\' while importing
+        eg.
+            import math as m
+        
+        now we can use m. at the place of math.
+
+        by using dir we can see all function and variable present in module
+        eg.
+            dir(module_name)
 """
 #inporting math module
 import math
-
-#import function sqrt and cbrt from math
-from math import sqrt, cbrt
-
-#import all function and variable from math
-from math import *
 
 #With math.
 result = math.sqrt(9)
 print(result)
 
+#import function sqrt and cbrt from math
+from math import sqrt, cbrt
+
 #Without math.
 result = cbrt(64)
 print(result)
+
+#import all function and variable from math
+from math import *
+
+#import module using as
+import math as m
+
+result = m.pow(m.pi,2)
+print(result)
+
+print(dir(math))
