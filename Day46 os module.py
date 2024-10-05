@@ -4,9 +4,6 @@
         rcomputer's file related work. os module is a build-in python module
         It allows programmer to presform wide varity of task, such as reading
         and writing a file, intering with the file system, and running system commands.
-
-
-
 """
 #importing os module
 import os
