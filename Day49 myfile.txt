@@ -1,0 +1,2 @@
+Hello this is file handling
+Hello this is append mode
