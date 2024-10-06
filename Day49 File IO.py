@@ -35,7 +35,7 @@
 
             instated of opening and closing the file multiply we can use WITH keyword.
             eg.
-                with open("myfile.txt","r")as f:
+                with open("myfile.txt","r") as f:
                     text = f.read()
                     print(text)
                 
