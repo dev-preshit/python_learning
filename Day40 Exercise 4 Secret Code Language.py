@@ -1,4 +1,4 @@
-#EXECRISE 34
+#EXECRISE 4
 # Secret Code language
 #create a coder and de-coder for string secret language...
 
