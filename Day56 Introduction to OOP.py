@@ -28,7 +28,8 @@
             object with its own name and age, but they would all have the same methods to speak and walk.
 
         4 pillars of OOP...
-            1)Encapsulation.
-            2)Inheritance.
-            3)Polymorphism.
+            1)Abstraction.
+            2)Encapsulation.
+            3)Inheritance.
+            4)Polymorphism.
 """
