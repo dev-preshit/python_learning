@@ -1,6 +1,6 @@
 #Exerise 5
 #Rock Paper Scissor
-
+#create a program to play rock paper scissor
 import random as r
 
 choice  = {0: 'Rock', 1: 'Paper', 2: 'Scissor'}
