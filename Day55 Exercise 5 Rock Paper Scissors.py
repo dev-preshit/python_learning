@@ -50,7 +50,6 @@ def startgame():
         print(f"\nScore after {rounds} round(s):")
         print(f"You: {user_score}, Computer: {comp_score}, Ties: {ties}\n")
         
-        # Ask if the user wants to play again
         play_again = input("Do you want to play another round? (yes/no): ").lower()
         if play_again != 'yes':
             break
