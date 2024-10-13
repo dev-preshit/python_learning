@@ -1,20 +1,19 @@
-"""
-    #Day 56 is about Introduction to OOP in Python...
-        In programming language there are two appoachers that are used to  write program
+"""    # Day 56 is about Introduction to OOP in Python...
+        In programming languages, there are two approaches that are used to write programs:
         1) Procedural Programming
         2) Object-Oriented Programming
 
-        The procedure we are following till now is the "Procedural Programming" approach.
-        So, in this session, we will learn about Object Oriented Programming (OOP). The
-        basic idea of object-oriented programming (OOP) in Python is to use classes and
+        The procedure we have been following until now is the "Procedural Programming" approach.
+        In this session, we will learn about Object-Oriented Programming (OOP). The
+        basic idea of Object-Oriented Programming (OOP) in Python is to use classes and
         objects to represent real-world concepts and entities.
-        eg. 
-            You are having a compitation in your college for that you want all participants
-            To fill a form which have their name, branch and semister.
-            for that you create a google form which will have certain coloum for name, branch
-            and semister this will be considered as template or blueprint.
-            While the individual student filling the form will become a object which is a 
-            Real-World Entity...
+        e.g. 
+            You are having a competition in your college, for which you want all participants
+            to fill out a form that includes their name, branch, and semester.
+            To achieve this, you create a Google form that will have certain columns for name, branch,
+            and semester. This will be considered as a template or blueprint.
+            While individual students filling out the form will become objects, which are 
+            real-world entities...
 
         CLASS:
             A class is a blueprint or template for creating objects. It defines the properties and
@@ -27,9 +26,9 @@
             methods such as speak() and walk(). Each instance of the Person class would be a unique
             object with its own name and age, but they would all have the same methods to speak and walk.
 
-        4 pillars of OOP...
-            1)Abstraction.
-            2)Encapsulation.
-            3)Inheritance.
-            4)Polymorphism.
+        The 4 pillars of OOP are:
+            1) Abstraction
+            2) Encapsulation
+            3) Inheritance
+            4) Polymorphism
 """
