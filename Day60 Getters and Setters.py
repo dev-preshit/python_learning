@@ -1,37 +1,39 @@
 """
-    #Day 60 is about Getter and Setter in Python...
+       # Day 60 is about Getters and Setters in Python...
         Getters:
-            Getters in Python are methods that are used to access the values of an object's
-            properties. They are used to return the value of a specific property, and are
+            Getters in Python are methods used to access the values of an object's
+            properties. They are used to return the value of a specific property and are
             typically defined using the @property decorator.
-            Basically we can use the function as variable but can't put value on it...
+            Essentially, we can use the function as a variable but cannot assign a value to it directly.
+            
             class Myclass:
-                def __init__(self,value):
+                def __init__(self, value):
                     self.value = value
                 
-                @property   #This is getter
+                @property  # This is the getter
                 def ten_value(self):
-                    return 10* self.value
-                    
-        Setters:
-            It is important to note that the getters do not take any parameters and we cannot
-            set the value through getter method.For that we need setter method which can be
-            added by decorating method with @property_name.setter.
-            basically it allow to set a value for a method...
-            class Myclass:
-                def __init__(self,value):
-                    self.value = value
-                
-                @property   #This is getter
-                def ten_value(self):
-                    return 10* self.value
+                    return 10 * self.value
 
-                @ten_value.setter  #This is setter
-                def ten_value(self,newvalue):
+        Setters:
+            It is important to note that getters do not take any parameters, and we cannot
+            set the value through the getter method. For that, we need a setter method, which can be
+            added by decorating the method with @property_name.setter.
+            Essentially, it allows setting a value for a method.
+            
+            class Myclass:
+                def __init__(self, value):
+                    self.value = value
+                
+                @property  # This is the getter
+                def ten_value(self):
+                    return 10 * self.value
+
+                @ten_value.setter  # This is the setter
+                def ten_value(self, newvalue):
                     self.value = newvalue
 
-            Well this @property can be also use for encapsulation in python
-            infact we have perform encapsulation...
+            In fact, @property can also be used for encapsulation in Python,
+            meaning we are effectively performing encapsulation...
 
 """
 
