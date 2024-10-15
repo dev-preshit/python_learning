@@ -1,41 +1,40 @@
 """
-    #Day 50 is about read(), readlines() in Python...
+    # Day 50 is about read() and readlines() in Python...
         
-        readline():Read a single line from a file at a time
-        eg.
-            f = open("Day50 myfile.txt","r")
-            line = readline()
+        readline(): Read a single line from a file at a time.
+        Example:
+            f = open("Day50 myfile.txt", "r")
+            line = f.readline()
             print(line)
             f.close()
 
-        writeline():Write a single line on file
-            f = open("Day50 myfile","w")
-            list = [1,2,3,4,5,6,7,8,9]
-            f.writelines(list)
+        writelines(): Write a list of strings to a file.
+        Example:
+            f = open("Day50 myfile.txt", "w")
+            items = ['1\n', '2\n', '3\n', '4\n', '5\n', '6\n', '7\n', '8\n', '9\n']
+            f.writelines(items)
             f.close()
-
 """
-#writeline()
-f = open("Day50 myfile.txt","w")
-list = ['1\n','2\n','3\n','4\n','5\n']
-f.writelines(list)
+
+#writelines()
+f = open("Day50 myfile.txt", "w")
+items = ['1\n', '2\n', '3\n', '4\n', '5\n']
+f.writelines(items)
 f.close()
 
-f = open("Day50 myfile.txt",'a')
-fruits = ['apple','mango','banana','grapes','orange']
+f = open("Day50 myfile.txt", 'a')
+fruits = ['apple', 'mango', 'banana', 'grapes', 'orange']
 i = 0
 for fruit in fruits:
-    i+=1
+    i += 1
     f.write(f"{i}. {fruit}\n")
 f.close()
     
-
-#readline()
-f = open("Day50 myfile.txt","r")
+# readline()
+f = open("Day50 myfile.txt", "r")
 while True:
     line = f.readline()
     if not line:
         break
     print(line)
 f.close()
-
