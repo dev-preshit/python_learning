@@ -5,38 +5,37 @@
         and do not have access to the object of the class (i.e., self). These methods 
         are invoked on the class itself, not on an object of the class. 
 
-        @staticmethon
+        @staticmethod
         def Fun_name(argument(s)):
             block of code
+
             
 """
 
 class Math:
-    def __init__(self,num) -> None:
+    def __init__(self, num: int) -> None:
         self.num = num
-    
+
     @staticmethod
-    def average(list):
+    def average(numbers: list) -> float:
+        count = len(numbers)
+        total = 0
+        for item in numbers:
+            total += item
 
-        count = len(list)  
-        
-        sum = 0
-        for item in list:
-            sum += item
+        return total / count
 
-        return sum/count
 
 a = Math(10)
 
-list = []
+numbers = []
 for _ in range(10):
-    list.append(float(input("Enter a number: ")))
+    numbers.append(float(input("Enter a number: ")))
 
-print(f"Average is => {Math.average(list):.2f}")
-      #  ^^^^ using class name instated of object
+print(f"Average is => {Math.average(numbers):.2f}")
+#                      ^^^^ using class name instead of object
 #   Average is => 10.00
 
-        
-print(f"Average is => {a.average(list):.2f}")
-      #  ^ using object directly
+print(f"Average is => {a.average(numbers):.2f}")
+#                      ^ using object directly
 #   Average is => 10.00
