@@ -1,35 +1,36 @@
 """
-    #Day 46 is about os module in Python...
-        The os module in python can be use to do various 
-        rcomputer's file related work. os module is a build-in python module
-        It allows programmer to presform wide varity of task, such as reading
-        and writing a file, intering with the file system, and running system commands.
+    # Day 46 is about the os module in Python...
+        The os module in Python can be used to perform various 
+        computer file-related tasks. The os module is a built-in Python module
+        that allows programmers to perform a wide variety of tasks, such as reading
+        and writing files, interacting with the file system, and running system commands.
 """
+
 #importing os module
 import os
 
-#create dir
+#create directory
 os.mkdir("osmodule") 
 
-#get current dir
+#get current directory
 print(os.getcwd()) 
 
-#change dir
-os.chdir("D:\git\osmodule") 
+#change directory
+os.chdir("D:\\git\\osmodule") 
 print(os.getcwd())
 
-# bulk creation of dir
-for i in range(1,21):  
-    # checking existing files
+# bulk creation of directories
+for i in range(1, 21):  
+    # checking for existing directories
     if os.path.exists(f"data {i}"):
-        print("Dir allready exist")
+        print("Directory already exists")
     else:
         os.mkdir(f"data {i}")
 
-#listing files present in dir
-print(os.listdir("D:\git\osmodule"))
+#listing files present in directory
+print(os.listdir("D:\\git\\osmodule"))
 
-#rename files
-for i in range(1,21):
-        os.rename(f"data {i}",f"folder {i}")
-print(os.listdir("D:\git\osmodule"))
+#rename directories
+for i in range(1, 21):
+    os.rename(f"data {i}", f"folder {i}")
+print(os.listdir("D:\\git\\osmodule"))
