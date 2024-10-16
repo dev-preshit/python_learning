@@ -9,28 +9,28 @@
 #importing os module
 import os
 
-#create directory
+#create dir
 os.mkdir("osmodule") 
 
-#get current directory
+#get current dir
 print(os.getcwd()) 
 
-#change directory
-os.chdir("D:\\git\\osmodule") 
+#change dir
+os.chdir("D:/git/osmodule") 
 print(os.getcwd())
 
-# bulk creation of directories
-for i in range(1, 21):  
-    # checking for existing directories
+# bulk creation of dir
+for i in range(1):  
+    # checking existing files
     if os.path.exists(f"data {i}"):
-        print("Directory already exists")
+        print("Dir allready exist")
     else:
         os.mkdir(f"data {i}")
 
-#listing files present in directory
-print(os.listdir("D:\\git\\osmodule"))
+#listing files present in dir
+print(os.listdir("D:\git\osmodule"))
 
-#rename directories
-for i in range(1, 21):
-    os.rename(f"data {i}", f"folder {i}")
-print(os.listdir("D:\\git\\osmodule"))
+#rename files
+for i in range(1):
+        os.rename(f"data {i}",f"folder {i}")
+print(os.listdir("D:\git\osmodule"))
