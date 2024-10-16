@@ -1,27 +1,28 @@
 """
-    # Day 42 is about Enumerate Function in Python...
+    # Day 42 is about the Enumerate Function in Python...
         The enumerate function is a built-in function in Python that allows
         you to loop over a sequence (such as a list, tuple, or string) and get
         the index and value of each element in the sequence at the same
-        !ime. Here's a basic example of how it works.
-        eg.
-            marks = [23,45,67,89,100,54,78]
+        time. Here's a basic example of how it works.
+        
+        Example:
+            marks = [23, 45, 67, 89, 100, 54, 78]
 
             for index, mark in enumerate(marks):
                 print(f"{mark} on index {index}")
         
-        By default, the enumerate function starts the index at O, but you can
+        By default, the enumerate function starts the index at 0, but you can
         specify a different starting index by passing it as an argument to the
         enumerate function:
         
-            fruits = ['apple','mango','banana']
+            fruits = ['apple', 'mango', 'banana']
 
-            for index, fruit in enumerate(fruits,start=1):
+            for index, fruit in enumerate(fruits, start=1):
                 print(f"{index} => {fruit}")
             
 """
 
-marks = [23,45,67,89,100,54,78]
+marks = [23, 45, 67, 89, 100, 54, 78]
 
 for index, mark in enumerate(marks):
     print(f"{mark} on index {index}")
@@ -37,9 +38,9 @@ Output:
     78 on index 6
 """
 
-fruits = ['apple','mango','banana']
+fruits = ['apple', 'mango', 'banana']
 
-for index, fruit in enumerate(fruits,start=1,):
+for index, fruit in enumerate(fruits, start=1):
     print(f"{index} => {fruit}")
 
 """
