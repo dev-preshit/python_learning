@@ -1,7 +1,7 @@
 """
-    #Day 44 is about how import works in Python...
+    # Day 44 is about how import works in Python...
         Importing in Python is the process of loading code from a Python module into the current script.
-        his allows you to use the functions and variables defined in the module in your current script, as
+        This allows you to use the functions and variables defined in the module in your current script, as
         well as any additional modules that the imported module may depend on.
 
         To import a module in Python, you use the import statement followed by the name of the module.
@@ -11,54 +11,56 @@
             import math
 
         Once a module is imported, you can use any of the functions and variables defined in the module
-        by using the dot notation.
+        by using dot notation.
         eg.
             result = math.sqrt(9)
             print(result)
 
-        If we want a specific function from a module suppose sqrt ot curt 
-        which will remove the need to write math. and make it ez to use...
+        If we want a specific function from a module, such as sqrt or cbrt, 
+        we can import only those, which removes the need to write "math." and makes it easier to use.
         eg.
             from math import sqrt, cbrt
 
-        It's also possable to import all the function and variable using *
-        which stand for all...
+        It's also possible to import all the functions and variables using * 
+        which stands for "all."
         eg. 
             from math import *
-        however it is not recommended to do so as it increase confusion...
+        However, it is not recommended to do so as it increases confusion.
 
-        as keyword
-        we can create a alias by using \'as\' while importing
+        'as' keyword:
+        We can create an alias by using 'as' while importing.
         eg.
             import math as m
         
-        now we can use m. at the place of math.
+        Now we can use 'm.' in place of 'math.'
 
-        by using dir we can see all function and variable present in module
+        By using dir, we can see all functions and variables present in the module.
         eg.
             dir(module_name)
 """
-#inporting math module
+
+# Importing math module
 import math
 
-#With math.
+# With math.
 result = math.sqrt(9)
 print(result)
 
-#import function sqrt and cbrt from math
+# Import function sqrt and cbrt from math
 from math import sqrt, cbrt
 
-#Without math.
+# Without math.
 result = cbrt(64)
 print(result)
 
-#import all function and variable from math
+# Import all functions and variables from math
 from math import *
 
-#import module using as
+# Import module using as
 import math as m
 
-result = m.pow(m.pi,2)
+result = m.pow(m.pi, 2)
 print(result)
 
+# Display all functions and variables in the math module
 print(dir(math))
