@@ -1,10 +1,12 @@
 """
-    #Day 70 is about using Class Method as Alternative Constructors in python...
-    While using class we have to initilize some parameters but due to input style
-    we can't do so directly so we have to first decode the format of input and then
-    pass it in constructor which will make it a mess in main file
-    So we use class method to decode it and pass the return value form this method
-    to constructor... 
+    # Day 70 is about using Class Methods as Alternative Constructors in Python.
+
+    When using a class, we often need to initialize some parameters, but due to the input style, 
+    we can't do so directly. Therefore, we first need to decode the format of the input 
+    and then pass it to the constructor, which can make the main file messy.
+
+    To avoid this, we use class methods to decode the input format and pass the returned value 
+    from these methods to the constructor.
 """
 class Student:
     def __init__(self,name,age) -> None:
