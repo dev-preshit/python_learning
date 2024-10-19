@@ -17,5 +17,3 @@ class Employee:
     
     def __call__(self):
         print("this can be called is we call object as function i.e. e()")
-
-
