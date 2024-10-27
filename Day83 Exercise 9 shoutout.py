@@ -1,5 +1,6 @@
 #Execise 9
 # Python program to convert text to speech...
+# Write a program to pronounce list of names using win32 API. 
 
 import win32com.client as mas
 import time
