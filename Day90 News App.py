@@ -7,11 +7,11 @@
 
 import requests
 import json
-from key import newsApi
+from key import NewsApi
 
 query = input("What would you like to read today: ")
 category = input("Enter the category: ")
-apikey = newsApi.newsapi
+apikey = NewsApi.newsapi
 
 url = f"https://newsapi.org/v2/top-headlines?q={query}&country=in&category={category}&apiKey={apikey}"
 r = requests.get(url)
