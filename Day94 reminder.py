@@ -25,6 +25,6 @@ while True:
         wait = int(hour)
         if wait % 2 == 0:
             reminder()
-        time.sleep(5)  # Wait for 1 hour
+        time.sleep(3600)  # Wait for 1 hour
     else:
-        time.sleep(1)
+        time.sleep(10)
