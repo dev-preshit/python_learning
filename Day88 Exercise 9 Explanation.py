@@ -1,4 +1,4 @@
-#Execise 9
+#Exercise 9
 # Python program to convert text to speech explanation
 # Write a program to pronounce list of names using win32 API. 
 
